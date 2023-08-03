@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            box-sizing: border-box;
+        }
+        #main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            width: 200px;
+        }
+        h2{
+            font-family: 'Handjet', cursive;
+        }
+        input{
+            width: 20vw;
+            padding: 10px 25px;
+            border-radius: 8px;
+        }
+        button{
+           padding: 10px 25px;
+           border: 0.5px solid black;
+           border-radius: 8px;
+           background: none; 
+        }
+        button:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            cursor: pointer;
+        }
+        li{
+            font-size: x-large;
+            font-weight: bolder;
+            font-family: 'Handjet',cursive;
+        }
+        span{
+            cursor: pointer;
+            margin-left: 40px;
+        }
+        span:hover{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+        }
+    </style>
+</head>
+<body>
+   <section id="main">
+       <img src="logo.png" alt="">
+       <h2>Today I Need To</h2>
+        <div>
+            <input type="text">
+            <button>Submit</button>
+        </div>
+        <section>
+            <br>
+            <br>
+            <ul>
+                
+            </ul>
+        </section>
+    </section>
+   
+    <script src="script.js"></script>
+</body>
+</html>
